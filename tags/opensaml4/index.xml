@@ -1,113 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>OpenSAML4 on SAMLSecurity</title>
-    <link>https://blog.samlsecurity.com/tags/opensaml4/</link>
-    <description>Recent content in OpenSAML4 on SAMLSecurity</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Stefan Rasmusson</copyright>
-    <lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.samlsecurity.com/tags/opensaml4/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Pretty printing OpenSAML Objects</title>
-      <link>https://blog.samlsecurity.com/post/prettyprint-opensaml/</link>
-      <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.samlsecurity.com/post/prettyprint-opensaml/</guid>
-      <description>
-        
-          
-            In the best of worlds it&#39;s not often you need to look into the actual XML of a SAML message. In the real world however, when troubleshooting a problem, there is often leads to be found by looking at the XML of the SAML message.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenSAML4 on SAMLSecurity</title><link>https://blog.samlsecurity.com/tags/opensaml4/</link><description>Recent content in OpenSAML4 on SAMLSecurity</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Stefan Rasmusson</copyright><lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.samlsecurity.com/tags/opensaml4/index.xml" rel="self" type="application/rss+xml"/><item><title>Pretty printing OpenSAML Objects</title><link>https://blog.samlsecurity.com/post/prettyprint-opensaml/</link><pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate><guid>https://blog.samlsecurity.com/post/prettyprint-opensaml/</guid><description>
+In the best of worlds it's not often you need to look into the actual XML of a SAML message. In the real world however, when troubleshooting a problem, there is often leads to be found by looking at the XML of the SAML message.
 Lets have a look on how to go about doing that in OpenSAML 4.
-First let&#39;s create a OpenSAML object so we have something to print.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Signing and verifying signatures with OpenSAML 4</title>
-      <link>https://blog.samlsecurity.com/2012/11/verifying-signatures-with-opensaml.html</link>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.samlsecurity.com/2012/11/verifying-signatures-with-opensaml.html</guid>
-      <description>
-        
-          
-            One of the most important things in SAML communication is signing. Digital signatures allow the receiver of a message to be sure that the message has not changed since it was sent by the sender. If not for digital signatures someone in the middle of the SAML communication could for example change what user was authenticated in the SAML assertion from the IdP.
-Digital signatures are also used to authenticate the sender sending a message.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using HTTP POST binding in OpenSAML 4</title>
-      <link>https://blog.samlsecurity.com/post/post-binding-opensaml-4/</link>
-      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.samlsecurity.com/post/post-binding-opensaml-4/</guid>
-      <description>
-        
-          
-            In this tutorial I will show you how the SAML HTTP POST binding works and how to use it to send and receive messages in OpenSAML
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using HTTP Redirect binding in OpenSAML 4</title>
-      <link>https://blog.samlsecurity.com/2011/01/redirect-with-authnrequest.html</link>
-      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.samlsecurity.com/2011/01/redirect-with-authnrequest.html</guid>
-      <description>
-        
-          
-            A tutorial looking on how to use the HTTP redirect binding to send and receive messages in OpenSAML v4. This tutorial walks you through the basics of the HTTP-redirect binding and how to use it in OpenSAML
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Getting started with OpenSAML 4</title>
-      <link>https://blog.samlsecurity.com/post/getting-started-opensaml-v4/</link>
-      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.samlsecurity.com/post/getting-started-opensaml-v4/</guid>
-      <description>
-        
-          
-            A first tutorial guide on how to get started using OpenSAML v4. This tutorial walks you through setting up OpenSAML in your project, initiating OpenSAML and creating your first SAML message
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Helper methods for OpenSAML</title>
-      <link>https://blog.samlsecurity.com/2011/04/convenience-methods-for-opensaml.html</link>
-      <pubDate>Fri, 01 Apr 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.samlsecurity.com/2011/04/convenience-methods-for-opensaml.html</guid>
-      <description>
-        
-          
-            During my work with OpenSAML I have created a few helper methods to make it easier to do common things in OpenSAML such as object creation and logging of SAML XML. I my code samples I keep this in the SAMLUtil class.
+First let's create a OpenSAML object so we have something to print.</description></item><item><title>Signing and verifying signatures with OpenSAML 4</title><link>https://blog.samlsecurity.com/2012/11/verifying-signatures-with-opensaml.html</link><pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate><guid>https://blog.samlsecurity.com/2012/11/verifying-signatures-with-opensaml.html</guid><description>
+One of the most important things in SAML communication is signing. Digital signatures allow the receiver of a message to be sure that the message has not changed since it was sent by the sender. If not for digital signatures someone in the middle of the SAML communication could for example change what user was authenticated in the SAML assertion from the IdP.
+Digital signatures are also used to authenticate the sender sending a message.</description></item><item><title>Using HTTP POST binding in OpenSAML 4</title><link>https://blog.samlsecurity.com/post/post-binding-opensaml-4/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.samlsecurity.com/post/post-binding-opensaml-4/</guid><description>
+In this tutorial I will show you how the SAML HTTP POST binding works and how to use it to send and receive messages in OpenSAML</description></item><item><title>Using HTTP Redirect binding in OpenSAML 4</title><link>https://blog.samlsecurity.com/2011/01/redirect-with-authnrequest.html</link><pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.samlsecurity.com/2011/01/redirect-with-authnrequest.html</guid><description>
+A tutorial looking on how to use the HTTP redirect binding to send and receive messages in OpenSAML v4. This tutorial walks you through the basics of the HTTP-redirect binding and how to use it in OpenSAML</description></item><item><title>Getting started with OpenSAML 4</title><link>https://blog.samlsecurity.com/post/getting-started-opensaml-v4/</link><pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.samlsecurity.com/post/getting-started-opensaml-v4/</guid><description>
+A first tutorial guide on how to get started using OpenSAML v4. This tutorial walks you through setting up OpenSAML in your project, initiating OpenSAML and creating your first SAML message</description></item><item><title>Helper methods for OpenSAML</title><link>https://blog.samlsecurity.com/2011/04/convenience-methods-for-opensaml.html</link><pubDate>Fri, 01 Apr 2011 00:00:00 +0000</pubDate><guid>https://blog.samlsecurity.com/2011/04/convenience-methods-for-opensaml.html</guid><description>
+During my work with OpenSAML I have created a few helper methods to make it easier to do common things in OpenSAML such as object creation and logging of SAML XML. I my code samples I keep this in the SAMLUtil class.
 Creating SAML objects OpenSAML has a bit complex way of creating SAML objects using a factory pattern.
-The normal way to create a SAML object is like this.
-          
-          
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+The normal way to create a SAML object is like this.</description></item></channel></rss>

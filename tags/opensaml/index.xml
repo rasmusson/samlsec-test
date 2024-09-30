@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenSAML on SAMLSecurity</title>
+    <link>https://blog.samlsecurity.com/tags/opensaml/</link>
+    <description>Recent content in OpenSAML on SAMLSecurity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Stefan Rasmusson</copyright>
+    <lastBuildDate>Tue, 24 Apr 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.samlsecurity.com/tags/opensaml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Big OpenSAML Guide</title>
+      <link>https://blog.samlsecurity.com/p/opensaml.html</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/p/opensaml.html</guid>
+      <description>
+        
+          
+            This is the main page on the site where I guide you to all resources on OpenSAML. Here you will find all topics, from beginner to advanced that I have collected over the years.
+First, for you that are totally new to OpenSAML is a short introduction.
+What is OpenSAML? OpenSAML is a library to facilitate working with SAML messages. Below are some of the functions that OpenSAML provides:
+Creating SAML messages Parsing and exporting SAML objects as XML Signing and encryption Encoding and message transport Internet2 provides and supports the library.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

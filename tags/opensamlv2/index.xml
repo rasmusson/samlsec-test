@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenSAMLV2 on SAMLSecurity</title>
+    <link>https://blog.samlsecurity.com/tags/opensamlv2/</link>
+    <description>Recent content in OpenSAMLV2 on SAMLSecurity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Stefan Rasmusson</copyright>
+    <lastBuildDate>Sat, 16 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.samlsecurity.com/tags/opensamlv2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redirect with AuthnRequest</title>
+      <link>https://blog.samlsecurity.com/2011/01/redirect-with-authnrequest-opensaml2.html</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2011/01/redirect-with-authnrequest-opensaml2.html</guid>
+      <description>
+        
+          
+            This article discusses singing and sending in OpenSAML 2. If you&#39;re looking for an article on OpenSAML 4, you will find it here and if you&#39;re looking for an article on OpenSAML 3, you will find it here
+In this post I will show you how to start the SAML Single sign-on process by sending a authentication request using OpenSAML. The process starts with a redirect from the SP(The one wanting to authenticate someone) to the IdP(The one authenticating).
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Adding KeyInfo to a message in OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2015/07/adding-keyinfo-to-saml-message.html</link>
+      <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2015/07/adding-keyinfo-to-saml-message.html</guid>
+      <description>
+        
+          
+            Information and example on how to sign and send authnrequests in OpenSAML
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenSAML book release!</title>
+      <link>https://blog.samlsecurity.com/2014/09/opensaml-book-release.html</link>
+      <pubDate>Tue, 09 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2014/09/opensaml-book-release.html</guid>
+      <description>
+        
+          
+            After many late nights and tedious editing, I have finished my book on OpenSAML, based on my experiences working with the OpenSAML library. A Guide to OpenSAML is a short book that introduces SAML, the SAML Web Browser Profile and the use of OpenSAML.
+Buy the book on Payhip! The book has three parts, the first of which introduces SAML, SAML Web Browser Profile and OpenSAML. The next part goes deeper into explaining the Web Browser Profile more in detail and shows an example on how to implement it using OpenSAML.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exception: Apache xmlsec IdResolver could not resolve the Element for id reference while decrypting</title>
+      <link>https://blog.samlsecurity.com/2014/05/exception-apache-xmlsec-idresolver.html</link>
+      <pubDate>Wed, 14 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2014/05/exception-apache-xmlsec-idresolver.html</guid>
+      <description>
+        
+          
+            Why am I getting a exception saying Exception: Apache xmlsec IdResolver could not resolve the Element for id reference while decrypting
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Nullpointer exception in OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2014/05/nullpointer-exception-in-opensaml.html</link>
+      <pubDate>Mon, 05 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2014/05/nullpointer-exception-in-opensaml.html</guid>
+      <description>
+        
+          
+            This is a common exception to beginners in using OpenSAML. A common mistake when starting to use the OpenSAML library is to not initialize the library.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Signing with OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2012/11/signing-with-opensaml.html</link>
+      <pubDate>Mon, 12 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2012/11/signing-with-opensaml.html</guid>
+      <description>
+        
+          
+            When exchanging information with SAML it is highly recommended to sign and verify signatures on all messages. This to ensure the the sender really is how he says he is and that the information sent has not been manipulated during transport.
+Every SAML object that implements the SignableXMLObject interface can be signed.
+The signing of a SAML message is done in three steps. First, all the properties for the signature is put in a Signature object.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenSAML sample code</title>
+      <link>https://blog.samlsecurity.com/2012/11/opensaml-sample-code.html</link>
+      <pubDate>Wed, 07 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2012/11/opensaml-sample-code.html</guid>
+      <description>
+        
+          
+            Some helpful examples of projects using OpenSAML
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reading metadata with OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2012/02/reading-metadata-with-opensaml.html</link>
+      <pubDate>Wed, 22 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2012/02/reading-metadata-with-opensaml.html</guid>
+      <description>
+        
+          
+            OpenSAML have several methods for reading and parsings SAML metadata.
+Meta data is loaded using providers. For example
+FilesystemMetadataProvider - Used to load data from a file on the filesystem HTTPMetadataProvider - Used to load data from an Internet address
+Here is an example on how to load meta data using the FilesystemMetadataProvider.
+1FilesystemMetadataProvider idpMetaDataProvider = new FilesystemMetadataProvider(new File(&amp;#34;path to file&amp;#34;)); 2idpMetaDataProvider.setRequireValidMetadata(true); 3idpMetaDataProvider.setParserPool(new BasicParserPool()); 4idpMetaDataProvider.initialize(); 5EntityDescriptor idpEntityDescriptor = idpMetaDataProvider.getEntityDescriptor(&amp;#34;Some entity id&amp;#34;); The EntityDescriptor can then be used to extract data from the metadata.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Getting credentials in OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2011/03/getting-credentials-in-opensaml.html</link>
+      <pubDate>Fri, 18 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2011/03/getting-credentials-in-opensaml.html</guid>
+      <description>
+        
+          
+            For all cryptographic functions OpenSAML requires a Credential which is a basically a cryptographic key wrapped in an object. The Credential can contain either an symmetric key or an asymmetric key not both. The Credential can be created manually with BasicX509Credential and BasicCredential classes and then populated with the setters. But the preferred way is to use one of the many CredentialResolvers to create the credential for you. I will now show some examples of how creating credentials using the basic classes and two different resolvers.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Resolve an artifact with OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2011/02/resolve-artifact-with-opensaml.html</link>
+      <pubDate>Wed, 23 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2011/02/resolve-artifact-with-opensaml.html</guid>
+      <description>
+        
+          
+            In my case the, after the sign on at the IdP is completed, the user is redirected to my `Assertion Consumer Service URL defined in meta data. The IdP sends an artifact back as a parameter.The artifact is a label pointing to the actual user data/login information(the assertion) at the IdP. The user data is not sent in the HTTP request of security reasons. Instead the consumer servlet send a Artifact Resolve Request over a SOAP back channel to get the data.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Single Log Out with OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2011/02/single-log-out-with-opensaml.html</link>
+      <pubDate>Wed, 23 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2011/02/single-log-out-with-opensaml.html</guid>
+      <description>
+        
+          
+            To logout an user from the SP an LogoutRequest is sent. The data needed about the user is the SessionIndex and NameID from the data received at login. I my case in the Assertion in the Artifact Resolve Response.
+1//IPR Ergogroup AS 2public static void doSynchronousLogout(final HttpSession sessionToLogout, final SAMLMetaData metaData) throws SOAPException, SecurityException, ValidationException, IllegalArgumentException, java.lang.SecurityException, IllegalAccessException, MarshallingException, SignatureException { 3 NameID nameId = (NameID)sessionToLogout.getAttribute(&amp;#34;SAMLNameID&amp;#34;); 4 String sessionIndex = (String)sessionToLogout.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

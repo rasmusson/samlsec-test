@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Signature on SAMLSecurity</title>
+    <link>https://blog.samlsecurity.com/tags/digital-signature/</link>
+    <description>Recent content in Digital Signature on SAMLSecurity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Stefan Rasmusson</copyright>
+    <lastBuildDate>Wed, 10 Aug 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.samlsecurity.com/tags/digital-signature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Signing and Sending AuthnRequests in OpenSAML V3</title>
+      <link>https://blog.samlsecurity.com/2016/08/signing-and-sending-authnrequests-in.html</link>
+      <pubDate>Wed, 10 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2016/08/signing-and-sending-authnrequests-in.html</guid>
+      <description>
+        
+          
+            Information and example on how to sign and send authnrequests in OpenSAML
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

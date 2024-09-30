@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SAMLSecurity</title>
+    <link>https://blog.samlsecurity.com/</link>
+    <description>Recent content on SAMLSecurity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Stefan Rasmusson</copyright>
+    <lastBuildDate>Thu, 20 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.samlsecurity.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solicited and unsolicited responses in SAML</title>
+      <link>https://blog.samlsecurity.com/post/unsolicited-response/</link>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/post/unsolicited-response/</guid>
+      <description>
+        
+          
+            In this post we look on the login flow called IdP initiated Authentication or unsolicited responses
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Quick first introduction to PySAML</title>
+      <link>https://blog.samlsecurity.com/post/pysaml-intro/</link>
+      <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/post/pysaml-intro/</guid>
+      <description>
+        
+          
+            PySAML2 is a powerful Python library designed to streamline the integration of the Security Assertion Markup Language (SAML) protocol into Python applications. As a widely used standard for exchanging authentication and authorization data between parties, SAML ensures secure and seamless user authentication across disparate systems.
+In this quick tutorial we will look at the how to set up a simple SAML Service provider using PySAML to talk to mocksaml.dev as IdP.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Pretty printing OpenSAML Objects</title>
+      <link>https://blog.samlsecurity.com/post/prettyprint-opensaml/</link>
+      <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/post/prettyprint-opensaml/</guid>
+      <description>
+        
+          
+            In the best of worlds it&#39;s not often you need to look into the actual XML of a SAML message. In the real world however, when troubleshooting a problem, there is often leads to be found by looking at the XML of the SAML message.
+Lets have a look on how to go about doing that in OpenSAML 4.
+First let&#39;s create a OpenSAML object so we have something to print.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Disabling &#34;Update account information&#34; dialog when brokering using Keycloak</title>
+      <link>https://blog.samlsecurity.com/post/keycloak-transparent/</link>
+      <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/post/keycloak-transparent/</guid>
+      <description>
+        
+          
+            Building on my blog on using SAML in a SPA lets dig into a problem many seem to encounter when using keycloak and which to have i more or less like a transparent broker or proxy for authentication.
+The setup Lets take the setup in the post Authenticating a React SPA towards a SAML IdP as any example. This sets up a simple integration between a React Javascript SPA and a ADFS SAML IdP.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>ADFS SAML Metadata URL</title>
+      <link>https://blog.samlsecurity.com/post/matadata-location/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/post/matadata-location/</guid>
+      <description>
+        
+          
+            Where do I find the URL for SAML metadata XML for ADFS 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Authenticating a React SPA towards a SAML IdP</title>
+      <link>https://blog.samlsecurity.com/post/saml-for-react-spa/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/post/saml-for-react-spa/</guid>
+      <description>
+        
+          
+            In this tutorial we will look at how to authenticate user from a typical SPA in React using a SAML IdP, in this case ADFS. This is done using a Keycloak server to act as a broker and translate between OIDC and SAML. I will show the necessary configuration needed and as a cherry on top show you how to automate the whole setup.
+The problem with SAML in SPA in browser application “No, you can’t use SAML in a Single Page Application.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Signing and verifying signatures with OpenSAML 4</title>
+      <link>https://blog.samlsecurity.com/2012/11/verifying-signatures-with-opensaml.html</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2012/11/verifying-signatures-with-opensaml.html</guid>
+      <description>
+        
+          
+            One of the most important things in SAML communication is signing. Digital signatures allow the receiver of a message to be sure that the message has not changed since it was sent by the sender. If not for digital signatures someone in the middle of the SAML communication could for example change what user was authenticated in the SAML assertion from the IdP.
+Digital signatures are also used to authenticate the sender sending a message.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Metadata exchange and trust</title>
+      <link>https://blog.samlsecurity.com/post/matadata-exchange-trust/</link>
+      <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/post/matadata-exchange-trust/</guid>
+      <description>
+        
+          
+            A quick guide to understanding SAML metadata exchange and how it enables trust between SP and IdP
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Using HTTP POST binding in OpenSAML 4</title>
+      <link>https://blog.samlsecurity.com/post/post-binding-opensaml-4/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/post/post-binding-opensaml-4/</guid>
+      <description>
+        
+          
+            In this tutorial I will show you how the SAML HTTP POST binding works and how to use it to send and receive messages in OpenSAML
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Redirect with AuthnRequest</title>
+      <link>https://blog.samlsecurity.com/2011/01/redirect-with-authnrequest-opensaml2.html</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2011/01/redirect-with-authnrequest-opensaml2.html</guid>
+      <description>
+        
+          
+            This article discusses singing and sending in OpenSAML 2. If you&#39;re looking for an article on OpenSAML 4, you will find it here and if you&#39;re looking for an article on OpenSAML 3, you will find it here
+In this post I will show you how to start the SAML Single sign-on process by sending a authentication request using OpenSAML. The process starts with a redirect from the SP(The one wanting to authenticate someone) to the IdP(The one authenticating).
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Using HTTP Redirect binding in OpenSAML 4</title>
+      <link>https://blog.samlsecurity.com/2011/01/redirect-with-authnrequest.html</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2011/01/redirect-with-authnrequest.html</guid>
+      <description>
+        
+          
+            A tutorial looking on how to use the HTTP redirect binding to send and receive messages in OpenSAML v4. This tutorial walks you through the basics of the HTTP-redirect binding and how to use it in OpenSAML
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Getting started with OpenSAML 3</title>
+      <link>https://blog.samlsecurity.com/post/getting-started-opensaml-v3/</link>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/post/getting-started-opensaml-v3/</guid>
+      <description>
+        
+          
+            Dead simple example on how to get started using OpenSAML 3. This tutorial walks you through setting up OpenSAML in your project, initiating OpenSAML and creating your first SAML message
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Getting started with OpenSAML 4</title>
+      <link>https://blog.samlsecurity.com/post/getting-started-opensaml-v4/</link>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/post/getting-started-opensaml-v4/</guid>
+      <description>
+        
+          
+            A first tutorial guide on how to get started using OpenSAML v4. This tutorial walks you through setting up OpenSAML in your project, initiating OpenSAML and creating your first SAML message
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Big OpenSAML Guide</title>
+      <link>https://blog.samlsecurity.com/p/opensaml.html</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/p/opensaml.html</guid>
+      <description>
+        
+          
+            This is the main page on the site where I guide you to all resources on OpenSAML. Here you will find all topics, from beginner to advanced that I have collected over the years.
+First, for you that are totally new to OpenSAML is a short introduction.
+What is OpenSAML? OpenSAML is a library to facilitate working with SAML messages. Below are some of the functions that OpenSAML provides:
+Creating SAML messages Parsing and exporting SAML objects as XML Signing and encryption Encoding and message transport Internet2 provides and supports the library.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Decrypting a SAML Assertion in OpenSAML v3</title>
+      <link>https://blog.samlsecurity.com/2017/05/decrypting-saml-assertion-in-opensaml-v3.html</link>
+      <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2017/05/decrypting-saml-assertion-in-opensaml-v3.html</guid>
+      <description>
+        
+          
+            Explanation and examples of how to decrypt an encrypted SAML assertion with OpenSAML V3
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Signing and Sending AuthnRequests in OpenSAML V3</title>
+      <link>https://blog.samlsecurity.com/2016/08/signing-and-sending-authnrequests-in.html</link>
+      <pubDate>Wed, 10 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2016/08/signing-and-sending-authnrequests-in.html</guid>
+      <description>
+        
+          
+            Information and example on how to sign and send authnrequests in OpenSAML
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Verifying signatures with OpenSAML V3</title>
+      <link>https://blog.samlsecurity.com/2016/08/verifying-signatures-with-opensaml-v3.html</link>
+      <pubDate>Wed, 10 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2016/08/verifying-signatures-with-opensaml-v3.html</guid>
+      <description>
+        
+          
+            Here is the happy news of the day. Verifying a signature in OpenSAML V3 is done almost identical to how it is done in V2, is still very much relevant and worth checking out.
+The only difference between the two version is that the SignatureValidator is no longer instantiated. Instead the validate method of SignatureValidator is now static and takes both the credentials and the signature object.
+Below is the code for verifying signatures in OpenSAML V3
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>New book release: OpenSAML version 3</title>
+      <link>https://blog.samlsecurity.com/2016/06/new-book-release-opensaml-version-3.html</link>
+      <pubDate>Thu, 23 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2016/06/new-book-release-opensaml-version-3.html</guid>
+      <description>
+        
+          
+            As many of you know, version 2 of OpenSAML will officially reach its end of life at July 31 of 2016. This means that the library will not be receiving any new updates, not even critical security updates.
+Because of this, everyone currently using version 2 of OpenSAML is strongly advised to migrate to OpenSAML version 3.
+In light of this, I have done a fair amount of research on version 3 and am now releasing a new edition of A Guide to OpenSAML.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenSAML V3 Javadocs</title>
+      <link>https://blog.samlsecurity.com/2016/04/opensaml-v3-javadocs.html</link>
+      <pubDate>Mon, 25 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2016/04/opensaml-v3-javadocs.html</guid>
+      <description>
+        
+          
+            One notable thing that changed going from version 2 to 3 of OpenSAML is that the library was split in to. This first post on OpenSAML V3 try to help by linking to the javadoc of all different libraries
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>SAML Chrome Extension Published!</title>
+      <link>https://blog.samlsecurity.com/2015/10/saml-chrome-extension-published.html</link>
+      <pubDate>Wed, 28 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2015/10/saml-chrome-extension-published.html</guid>
+      <description>
+        
+          
+            I have been working with SAML for a while now and I have always used Firefox for debugging instead of my favorite browser, Chrome. Why? you ask. Because there is a plugin called SAML tracer on firefox that is excellent for viewing the SAML messages going across the browser. There have been no such plugin for Chrome.
+Finally I have decided to take things into my own hands and build one.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Adding KeyInfo to a message in OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2015/07/adding-keyinfo-to-saml-message.html</link>
+      <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2015/07/adding-keyinfo-to-saml-message.html</guid>
+      <description>
+        
+          
+            Information and example on how to sign and send authnrequests in OpenSAML
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What is a SAML Assertion?</title>
+      <link>https://blog.samlsecurity.com/2015/07/what-is-saml-assertion.html</link>
+      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2015/07/what-is-saml-assertion.html</guid>
+      <description>
+        
+          
+            If you are just starting out trying to understand SAML you will come across the term SAML Assertion quite quickly. In this post or tutorial, I will try to explain to you what a SAML Assertion is and give you some examples on how they could look. This post mainly looks at the SAML Assertion in the perspective of the SAML Web Browser Profile. If you don&#39;t know what that is, have a look on my post about exactly that
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenSAML book release!</title>
+      <link>https://blog.samlsecurity.com/2014/09/opensaml-book-release.html</link>
+      <pubDate>Tue, 09 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2014/09/opensaml-book-release.html</guid>
+      <description>
+        
+          
+            After many late nights and tedious editing, I have finished my book on OpenSAML, based on my experiences working with the OpenSAML library. A Guide to OpenSAML is a short book that introduces SAML, the SAML Web Browser Profile and the use of OpenSAML.
+Buy the book on Payhip! The book has three parts, the first of which introduces SAML, SAML Web Browser Profile and OpenSAML. The next part goes deeper into explaining the Web Browser Profile more in detail and shows an example on how to implement it using OpenSAML.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exception: Apache xmlsec IdResolver could not resolve the Element for id reference while decrypting</title>
+      <link>https://blog.samlsecurity.com/2014/05/exception-apache-xmlsec-idresolver.html</link>
+      <pubDate>Wed, 14 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2014/05/exception-apache-xmlsec-idresolver.html</guid>
+      <description>
+        
+          
+            Why am I getting a exception saying Exception: Apache xmlsec IdResolver could not resolve the Element for id reference while decrypting
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Nullpointer exception in OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2014/05/nullpointer-exception-in-opensaml.html</link>
+      <pubDate>Mon, 05 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2014/05/nullpointer-exception-in-opensaml.html</guid>
+      <description>
+        
+          
+            This is a common exception to beginners in using OpenSAML. A common mistake when starting to use the OpenSAML library is to not initialize the library.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Signing with OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2012/11/signing-with-opensaml.html</link>
+      <pubDate>Mon, 12 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2012/11/signing-with-opensaml.html</guid>
+      <description>
+        
+          
+            When exchanging information with SAML it is highly recommended to sign and verify signatures on all messages. This to ensure the the sender really is how he says he is and that the information sent has not been manipulated during transport.
+Every SAML object that implements the SignableXMLObject interface can be signed.
+The signing of a SAML message is done in three steps. First, all the properties for the signature is put in a Signature object.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenSAML sample code</title>
+      <link>https://blog.samlsecurity.com/2012/11/opensaml-sample-code.html</link>
+      <pubDate>Wed, 07 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2012/11/opensaml-sample-code.html</guid>
+      <description>
+        
+          
+            Some helpful examples of projects using OpenSAML
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>SAML Web Browser Profile</title>
+      <link>https://blog.samlsecurity.com/2012/05/saml-web-profile.html</link>
+      <pubDate>Fri, 11 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2012/05/saml-web-profile.html</guid>
+      <description>
+        
+          
+            What is it? The SAML Web Browser SSO Profile is one of the profiles defined in the SAML specification. As described in my introductory post on SAML, profiles describes how to fulfill a specific use-case using SAML.
+In the realm of user authentication using SAML, the Web Browser Profile is very frequently used.
+The use-case being described in the Web Browser Profile is how to authenticate a user that is using a web browser.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Generating metadata with OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2012/02/generating-metadata-with-opensaml.html</link>
+      <pubDate>Wed, 22 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2012/02/generating-metadata-with-opensaml.html</guid>
+      <description>
+        
+          
+            OpenSAML can be used to generate metadata. As with reading metadata, the library is pretty straight forward in relation to the metadata XML.
+This is an example for generating a SP metadata file
+We start by creating the EntityDescriptor, setting the EntityId and building the SSO descriptor.
+1EntityDescriptor spEntityDescriptor = SAMLUtil.buildSAMLObjectWithDefaultName(EntityDescriptor.class); 2spEntityDescriptor.setEntityID(entityID); 3SPSSODescriptor spSSODescriptor = SAMLUtil.buildSAMLObjectWithDefaultName(SPSSODescriptor.class); In the SSO descriptor we request how we want the communication signed and encrypted
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reading metadata with OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2012/02/reading-metadata-with-opensaml.html</link>
+      <pubDate>Wed, 22 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2012/02/reading-metadata-with-opensaml.html</guid>
+      <description>
+        
+          
+            OpenSAML have several methods for reading and parsings SAML metadata.
+Meta data is loaded using providers. For example
+FilesystemMetadataProvider - Used to load data from a file on the filesystem HTTPMetadataProvider - Used to load data from an Internet address
+Here is an example on how to load meta data using the FilesystemMetadataProvider.
+1FilesystemMetadataProvider idpMetaDataProvider = new FilesystemMetadataProvider(new File(&amp;#34;path to file&amp;#34;)); 2idpMetaDataProvider.setRequireValidMetadata(true); 3idpMetaDataProvider.setParserPool(new BasicParserPool()); 4idpMetaDataProvider.initialize(); 5EntityDescriptor idpEntityDescriptor = idpMetaDataProvider.getEntityDescriptor(&amp;#34;Some entity id&amp;#34;); The EntityDescriptor can then be used to extract data from the metadata.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>SAML metadata</title>
+      <link>https://blog.samlsecurity.com/2012/02/saml-metadata.html</link>
+      <pubDate>Wed, 22 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2012/02/saml-metadata.html</guid>
+      <description>
+        
+          
+            Meta data is essential to set up a integration between two parties in SAML. But what is it? How does it work? How do you exchange it and where does this create a trust? All these questions will be answered!
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Helper methods for OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2011/04/convenience-methods-for-opensaml.html</link>
+      <pubDate>Fri, 01 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2011/04/convenience-methods-for-opensaml.html</guid>
+      <description>
+        
+          
+            During my work with OpenSAML I have created a few helper methods to make it easier to do common things in OpenSAML such as object creation and logging of SAML XML. I my code samples I keep this in the SAMLUtil class.
+Creating SAML objects OpenSAML has a bit complex way of creating SAML objects using a factory pattern.
+The normal way to create a SAML object is like this.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Getting credentials in OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2011/03/getting-credentials-in-opensaml.html</link>
+      <pubDate>Fri, 18 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2011/03/getting-credentials-in-opensaml.html</guid>
+      <description>
+        
+          
+            For all cryptographic functions OpenSAML requires a Credential which is a basically a cryptographic key wrapped in an object. The Credential can contain either an symmetric key or an asymmetric key not both. The Credential can be created manually with BasicX509Credential and BasicCredential classes and then populated with the setters. But the preferred way is to use one of the many CredentialResolvers to create the credential for you. I will now show some examples of how creating credentials using the basic classes and two different resolvers.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Resolve an artifact with OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2011/02/resolve-artifact-with-opensaml.html</link>
+      <pubDate>Wed, 23 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2011/02/resolve-artifact-with-opensaml.html</guid>
+      <description>
+        
+          
+            In my case the, after the sign on at the IdP is completed, the user is redirected to my `Assertion Consumer Service URL defined in meta data. The IdP sends an artifact back as a parameter.The artifact is a label pointing to the actual user data/login information(the assertion) at the IdP. The user data is not sent in the HTTP request of security reasons. Instead the consumer servlet send a Artifact Resolve Request over a SOAP back channel to get the data.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Single Log Out with OpenSAML</title>
+      <link>https://blog.samlsecurity.com/2011/02/single-log-out-with-opensaml.html</link>
+      <pubDate>Wed, 23 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2011/02/single-log-out-with-opensaml.html</guid>
+      <description>
+        
+          
+            To logout an user from the SP an LogoutRequest is sent. The data needed about the user is the SessionIndex and NameID from the data received at login. I my case in the Assertion in the Artifact Resolve Response.
+1//IPR Ergogroup AS 2public static void doSynchronousLogout(final HttpSession sessionToLogout, final SAMLMetaData metaData) throws SOAPException, SecurityException, ValidationException, IllegalArgumentException, java.lang.SecurityException, IllegalAccessException, MarshallingException, SignatureException { 3 NameID nameId = (NameID)sessionToLogout.getAttribute(&amp;#34;SAMLNameID&amp;#34;); 4 String sessionIndex = (String)sessionToLogout.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>SAML explained</title>
+      <link>https://blog.samlsecurity.com/2010/11/short-introduction-to-saml.html</link>
+      <pubDate>Mon, 22 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2010/11/short-introduction-to-saml.html</guid>
+      <description>
+        
+          
+            Information and example on how to sign and send authnrequests in OpenSAML
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Verifying solicited responses in PySAML</title>
+      <link>https://blog.samlsecurity.com/post/pysaml-unsolicited-response/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/post/pysaml-unsolicited-response/</guid>
+      <description>
+        
+          
+            In most example around the web, PySAML is used with the configuration attribute allow_unsolicited=True. This disables a, even though optional, security feature of SAML, allowing unsolicited responses to be received and considered valid. Obviously this should not be done in production implementations.
+In this article I will show you what solicited responses are and how you can validate that a response is solicited in PySAML.
+Solicited and unsolicited responses So what is a solicited or unsolicited response?
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

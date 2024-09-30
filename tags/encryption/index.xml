@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Encryption on SAMLSecurity</title>
+    <link>https://blog.samlsecurity.com/tags/encryption/</link>
+    <description>Recent content in Encryption on SAMLSecurity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Stefan Rasmusson</copyright>
+    <lastBuildDate>Sat, 20 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.samlsecurity.com/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decrypting a SAML Assertion in OpenSAML v3</title>
+      <link>https://blog.samlsecurity.com/2017/05/decrypting-saml-assertion-in-opensaml-v3.html</link>
+      <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.samlsecurity.com/2017/05/decrypting-saml-assertion-in-opensaml-v3.html</guid>
+      <description>
+        
+          
+            Explanation and examples of how to decrypt an encrypted SAML assertion with OpenSAML V3
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
